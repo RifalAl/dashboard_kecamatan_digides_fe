@@ -1,0 +1,136 @@
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+/*navbar*/
+.bg-green {
+  background-color: #327A6D;
+  border-bottom: 4px solid #F8A23D;
+}
+
+/*akhir navbar*/
+
+
+#logoDigides {
+  width: 120px;
+}
+
+#user {
+  color: white;
+  margin-bottom: 0;
+}
+
+#photo-profile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.center-v {
+  margin: auto;
+}
+
+.wrap-section {
+  background-color: #C9EDD7;
+  padding: 2.5rem 0px;
+}
+
+.card-adm-umum {
+  position: relative;
+  background-color: #518F83;
+  border-radius: 10px;
+  border: none;
+  min-height: 190px;
+  margin-bottom: 2.5rem;
+}
+
+.icon-card {
+  width: 75px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumlah-card {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 54px;
+  width: inherit;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+}
+
+.penjelasan-card {
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  color: white;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.penjelasan-buku-keuangan {
+  /*width: inherit;*/
+  transform: translate(-50%, -50%);
+}
+
+
+.section-judul {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1;
+  color: #518F83;
+}
+
+.pemisah {
+  border-left: 4px solid #F8A23D;
+}
+
+.nav-tabs .nav-link {
+  font-size: 1.25rem;
+  color: #202020
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #327A6D;
+  font-weight: 600;
+}
+
+#pieChart {
+  width: 100%;
+  height: 430px;
+}
+
+#umurChart,
+#desaChart,
+#pendidikanChart,
+#pekerjaanChart,
+#perkawinanChart,
+#agamaChart {
+  width: 100%;
+  height: 500px;
+  margin-top: 2rem
+}
+
+.card-logo-desa{
+  width: 100%;
+}
+
+.card-desa-aktif{
+  position: relative;
+}
+
+.peringkat-desa{
+  width: 50px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}

@@ -1,0 +1,1454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- font style -->
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+  <!-- costume css -->
+  <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/my-style.css">
+  <title>Dashboard Kecamatan</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-green">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img id="logoDigides" src="assets/media/logo/digidesLogo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav mr-auto d-none">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0 ">
+          <p id="user" name="user" class="mr-sm-3">Ahmad Rifaldi</p>
+          <div class="dropdown show">
+            <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img id="photo-profile" name="photo-profile" class="" src="https://i.insider.com/5ebf0f16aee6a826327d9111?width=1100&format=jpeg&auto=webp">
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><i class="fa fa-sign-out-alt mr-2"></i> Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="desaAktif">
+    <div class="wrap-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 center-v  wrap-section-judul pemisah">
+            <p class="section-judul">DESA PALING AKTIF</p>
+          </div>
+          <div class="col-8">
+            <div class="row text-center">
+              <div class="col-4">
+                <div class="card card-desa-aktif">
+                  <div class="card-body">
+                    <img class="peringkat-desa" src="assets/media/misc/icon-dashboard/mdi_numeric-1-circle.png">
+                    <img class="card-logo-desa mb-2" src="assets/media/logo/logoDesa.png">
+                    <h5>Desa Madasari</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-desa-aktif">
+                  <div class="card-body">
+                    <img class="peringkat-desa" src="assets/media/misc/icon-dashboard/mdi_numeric-2-circle.png">
+                    <img class="card-logo-desa mb-2" src="assets/media/logo/logoDesa.png">
+                    <h5>Desa Madasari</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-desa-aktif">
+                  <div class="card-body">
+                    <img class="peringkat-desa" src="assets/media/misc/icon-dashboard/mdi_numeric-3-circle.png">
+                    <img class="card-logo-desa mb-2" src="assets/media/logo/logoDesa.png">
+                    <h5>Desa Madasari</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="administrasiUmum">
+    <div class="wrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="row text-center">
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/fa_list-alt.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">18</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Peraturan Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/bi_card-list.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">42</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Keputusan Kepala Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/carbon_inventory-management.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">19</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Inventaris Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/ri_team-fill.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">21</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Aparat Pemerintah Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">590</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Buku Agenda</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/fa-solid_envelope.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">5</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Surat Ekspedisi</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/fa_newspaper-o.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">18</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Lembaran & Berita Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/jam_mountain-f.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">0m<sup>2</sup></p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Tanah Kas Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/luasTanah.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">2450m<sup>2</sup></p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Luas Tanah Desa</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-1 col-3 center-v  wrap-section-judul pemisah">
+            <p class="section-judul">ADMINISTRASI <br>UMUM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bukuKeuangan">
+    <div class="wrap-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 center-v  wrap-section-judul pemisah">
+            <p class="section-judul">BUKU <br>KEUANGAN</p>
+          </div>
+          <div class="offset-1 col-8">
+            <div class="row text-center">
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">5</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">APB Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">5</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">RAB Desa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">5</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Kas Kegiatan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">3</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Kas Umum</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">3</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Kas Pembantu</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/dashicons_book.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">3</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Buku Agenda</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="administrasiPenduduk">
+    <div class="wrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <div id="pieChart"></div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-1 col-3 center-v  wrap-section-judul pemisah">
+            <p class="section-judul">ADMINISTRASI <br>PENDUDUK</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-8">
+            <div class="row text-center">
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/bi_people-fill.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">4709</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Jumlah Total Penduduk</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/bx_bx-user.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">1368</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Kepala Keluarga</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/foundation_male-symbol.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">2273</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Laki-Laki</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/foundation_female-symbol.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">2436</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Perempuan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/foundation_torsos-male-female.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">8</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Penduduk Sementara</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card card-adm-umum">
+                  <div class="card-body">
+                    <img class="icon-card" id="iconCard" name="iconCard" src="assets/media/misc/icon-dashboard/mutasiPenduduk.svg">
+                    <p class="jumlah-card" id="jumlahCard" name="jumlahCard">187</p>
+                    <p class="penjelasan-card" id="penjelasanCard" name="penjelasanCard">Mutasi Penduduk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap-section bg-white">
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="umur-tab" data-toggle="tab" href="#umur" role="tab" aria-controls="umur" aria-selected="true">Umur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="desa-tab" data-toggle="tab" href="#desa" role="tab" aria-controls="desa" aria-selected="false">Desa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pendidikan-tab" data-toggle="tab" href="#pendidikan" role="tab" aria-controls="pendidikan" aria-selected="false">Pendidikan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pekerjaan-tab" data-toggle="tab" href="#pekerjaan" role="tab" aria-controls="pekerjaan" aria-selected="false">Pekerjaan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="perkawinan-tab" data-toggle="tab" href="#perkawinan" role="tab" aria-controls="perkawinan" aria-selected="false">Perkawinan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="agama-tab" data-toggle="tab" href="#agama" role="tab" aria-controls="agama" aria-selected="false">Agama</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="umur" role="tabpanel" aria-labelledby="umur-tab">
+                <div id="umurChart"></div>
+              </div>
+              <div class="tab-pane fade" id="desa" role="tabpanel" aria-labelledby="desa-tab">
+                <div id="desaChart"></div>
+              </div>
+              <div class="tab-pane fade" id="pendidikan" role="tabpanel" aria-labelledby="pendidikan-tab">
+                <div id="pendidikanChart"></div>
+              </div>
+              <div class="tab-pane fade" id="pekerjaan" role="tabpanel" aria-labelledby="pekerjaan-tab">
+                <div id="pekerjaanChart"></div>
+              </div>
+              <div class="tab-pane fade" id="perkawinan" role="tabpanel" aria-labelledby="perkawinan-tab">
+                <div id="perkawinanChart"></div>
+              </div>
+              <div class="tab-pane fade" id="agama" role="tabpanel" aria-labelledby="agama-tab">
+                <div id="agamaChart"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- amchart -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  <!-- Chart code -->
+  <script>
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#FFB257"),
+          am4core.color("#FFBC6D"),
+          am4core.color("#FFC888"),
+
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("pieChart", am4charts.PieChart);
+
+    // Add data
+    chart.data = [{
+      "desa": "Desa 1",
+      "jumlah": 501.9
+    }, {
+      "desa": "Desa 2",
+      "jumlah": 301.9
+    }, {
+      "desa": "Desa 3",
+      "jumlah": 201.1
+    }, {
+      "desa": "Desa 4",
+      "jumlah": 165.8
+    }];
+
+    // Add and configure Series
+    var pieSeries = chart.series.push(new am4charts.PieSeries());
+    pieSeries.dataFields.value = "jumlah";
+    pieSeries.dataFields.category = "desa";
+    pieSeries.slices.template.stroke = am4core.color("#fff");
+    pieSeries.slices.template.strokeOpacity = 0;
+
+    // This creates initial animation
+    pieSeries.hiddenState.properties.opacity = 1;
+    pieSeries.hiddenState.properties.endAngle = -90;
+    pieSeries.hiddenState.properties.startAngle = -90;
+
+    chart.hiddenState.properties.radius = am4core.percent(0);
+
+
+  }); // end am4core.ready()
+  </script>
+  <script>
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("umurChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -2,
+      "female": 0.3
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("desaChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -0.1,
+      "female": 1
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("pendidikanChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -0.1,
+      "female": 1
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("pekerjaanChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -0.1,
+      "female": 1
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("perkawinanChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -0.1,
+      "female": 1
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  am4core.ready(function() {
+
+    function am4themes_myTheme(target) {
+      if (target instanceof am4core.ColorSet) {
+        target.list = [
+          am4core.color("#F8A23D"),
+          am4core.color("#518F83"),
+        ];
+      }
+    }
+
+
+    // Themes begin
+    am4core.useTheme(am4themes_myTheme);
+    // Themes end
+
+    // Create chart instance
+    var chart = am4core.create("agamaChart", am4charts.XYChart);
+
+    // Add data
+    chart.data = [{
+      "age": "85+",
+      "male": -0.1,
+      "female": 1
+    }, {
+      "age": "80-54",
+      "male": -0.2,
+      "female": 0.3
+    }, {
+      "age": "75-79",
+      "male": -0.3,
+      "female": 0.6
+    }, {
+      "age": "70-74",
+      "male": -0.5,
+      "female": 0.8
+    }, {
+      "age": "65-69",
+      "male": -0.8,
+      "female": 1.0
+    }, {
+      "age": "60-64",
+      "male": -1.1,
+      "female": 1.3
+    }, {
+      "age": "55-59",
+      "male": -1.7,
+      "female": 1.9
+    }, {
+      "age": "50-54",
+      "male": -2.2,
+      "female": 2.5
+    }, {
+      "age": "45-49",
+      "male": -2.8,
+      "female": 3.0
+    }, {
+      "age": "40-44",
+      "male": -3.4,
+      "female": 3.6
+    }, {
+      "age": "35-39",
+      "male": -4.2,
+      "female": 4.1
+    }, {
+      "age": "30-34",
+      "male": -5.2,
+      "female": 4.8
+    }, {
+      "age": "25-29",
+      "male": -5.6,
+      "female": 5.1
+    }, {
+      "age": "20-24",
+      "male": -5.1,
+      "female": 5.1
+    }, {
+      "age": "15-19",
+      "male": -3.8,
+      "female": 3.8
+    }, {
+      "age": "10-14",
+      "male": -3.2,
+      "female": 3.4
+    }, {
+      "age": "5-9",
+      "male": -4.4,
+      "female": 4.1
+    }, {
+      "age": "0-4",
+      "male": -5.0,
+      "female": 4.8
+    }];
+
+    // Use only absolute numbers
+    chart.numberFormatter.numberFormat = "#s";
+
+    // Create axes
+    var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+    categoryAxis.dataFields.category = "age";
+    categoryAxis.renderer.grid.template.location = 0;
+    categoryAxis.renderer.inversed = true;
+
+    var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+    valueAxis.extraMin = 0.1;
+    valueAxis.extraMax = 0.1;
+    valueAxis.renderer.minGridDistance = 40;
+    valueAxis.renderer.ticks.template.length = 5;
+    valueAxis.renderer.ticks.template.disabled = false;
+    valueAxis.renderer.ticks.template.strokeOpacity = 0.4;
+    valueAxis.renderer.labels.template.adapter.add("text", function(text) {
+      return text == "Laki-Laki" || text == "Perempuan" ? text : text + "";
+    })
+
+    // Create series
+    var male = chart.series.push(new am4charts.ColumnSeries());
+    male.dataFields.valueX = "male";
+    male.dataFields.categoryY = "age";
+    male.clustered = false;
+    male.columns.template.tooltipText = "Laki-Laki, Umur {categoryY}: {valueX}";
+
+
+    var maleLabel = male.bullets.push(new am4charts.LabelBullet());
+    maleLabel.label.text = "{valueX}";
+    maleLabel.label.hideOversized = false;
+    maleLabel.label.truncate = false;
+    maleLabel.label.horizontalCenter = "right";
+    maleLabel.label.dx = -10;
+
+    var female = chart.series.push(new am4charts.ColumnSeries());
+    female.dataFields.valueX = "female";
+    female.dataFields.categoryY = "age";
+    female.clustered = false;
+    female.columns.template.tooltipText = "Perempuan, Umur {categoryY}: {valueX}";
+
+
+    var femaleLabel = female.bullets.push(new am4charts.LabelBullet());
+    femaleLabel.label.text = "{valueX}";
+    femaleLabel.label.hideOversized = false;
+    femaleLabel.label.truncate = false;
+    femaleLabel.label.horizontalCenter = "left";
+    femaleLabel.label.dx = 10;
+
+    var maleRange = valueAxis.axisRanges.create();
+    maleRange.value = -10;
+    maleRange.endValue = 0;
+    maleRange.label.text = "Laki-Laki";
+    maleRange.label.fill = chart.colors.list[0];
+    maleRange.label.dy = 25;
+    maleRange.label.fontWeight = '600';
+    maleRange.grid.strokeOpacity = 0;
+    maleRange.grid.stroke = male.stroke;
+
+    var femaleRange = valueAxis.axisRanges.create();
+    femaleRange.value = 0;
+    femaleRange.endValue = 10;
+    femaleRange.label.text = "Perempuan";
+    femaleRange.label.fill = chart.colors.list[1];
+    femaleRange.label.dy = 25;
+    femaleRange.label.fontWeight = '600';
+    femaleRange.grid.strokeOpacity = 0;
+    femaleRange.grid.stroke = female.stroke;
+
+  }); // end am4core.ready()
+  </script>
+</body>
+
+</html>
